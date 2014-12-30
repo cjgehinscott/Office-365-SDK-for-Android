@@ -308,7 +308,6 @@ public class SampleServiceTests extends WireMockTestBase {
         assertThat(result.size(), is(equalTo(1)));
     }
 
-    @Ignore
     @Test
     public void testDefaultHeaders() throws ExecutionException, InterruptedException {
         //testDefaultHeaders.json

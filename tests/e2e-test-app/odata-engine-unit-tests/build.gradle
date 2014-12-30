@@ -6,8 +6,14 @@ repositories {
 
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.github.tomakehurst:wiremock:1.52'
-    compile project(':outlook-services')
+    compile 'com.fasterxml.jackson.core:jackson-databind:2.4.2'
+    compile 'org.slf4j:slf4j-api:1.7.6'
+    compile 'org.mortbay.jetty:jetty:6.1.26'
+    compile 'org.skyscreamer:jsonassert:1.2.3'
+    compile 'xmlunit:xmlunit:1.5'
+    compile 'com.jayway.jsonpath:json-path:0.8.1'
+    //compile 'com.github.tomakehurst:wiremock:1.52'
+    //compile project(':outlook-services')
     compile project(':odata-engine-core')
     compile project(':odata-engine-jvm-impl')
     testCompile 'junit:junit:4.8.+'

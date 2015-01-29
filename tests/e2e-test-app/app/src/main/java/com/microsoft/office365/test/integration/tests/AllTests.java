@@ -26,6 +26,7 @@ public class AllTests extends TestGroup {
         testGroups.add(new ListsTests());
         testGroups.add(new DiscoveryTests());
         testGroups.add(new DirectoryTests());
+        testGroups.add(new OneNoteTests());
         return testGroups;
     }
 

@@ -51,6 +51,7 @@ import com.microsoft.office365.test.integration.tests.DiscoveryTests;
 import com.microsoft.office365.test.integration.tests.ExchangeTests;
 import com.microsoft.office365.test.integration.tests.FilesTests;
 import com.microsoft.office365.test.integration.tests.ListsTests;
+import com.microsoft.office365.test.integration.tests.OneNoteTests;
 
 import java.util.List;
 
@@ -135,6 +136,7 @@ public class MainActivity extends Activity {
         adapter.add(new ListsTests());
         adapter.add(new DiscoveryTests());
         adapter.add(new DirectoryTests());
+        adapter.add(new OneNoteTests());
 		mTestGroupSpinner.setSelection(0);
 		selectTestGroup(0);
 	}

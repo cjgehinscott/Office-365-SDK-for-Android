@@ -1,4 +1,4 @@
-include ':sharepoint-services',
+include ':sharepoint-services', ':onenote-services',
         ':outlook-services',
         ':file-services',
         ':directory-services',

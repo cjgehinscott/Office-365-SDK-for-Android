@@ -43,4 +43,5 @@ dependencies {
     compile project(':discovery-services')
     compile project(':sharepoint-services')
     compile project(':file-services')
+    compile project(':onenote-services')
 }
